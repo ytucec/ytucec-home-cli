@@ -7,11 +7,11 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 })
 export class LoaderComponent {
 
-  @ViewChild('spinner', {read: ElementRef})
+  @ViewChild('loader', {read: ElementRef})
   spinnerRef: ElementRef;
 
   /**
-   * Shows spinner on screen.
+   * Shows loader on screen.
    */
   public show(): void {
     const target = this.spinnerRef.nativeElement;
@@ -28,7 +28,7 @@ export class LoaderComponent {
   }
 
   /**
-   * Hide spinner from screen.
+   * Hide loader from screen.
    */
   public hide(): void {
     const target = this.spinnerRef.nativeElement;
