@@ -103,6 +103,7 @@ footer {
   padding: 14px 36px;
   margin-top: 42px;
   margin-right: 16px;
+  margin-left: 16px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -289,8 +290,90 @@ footer a:hover {
 
 @media (max-width: 700px) {
 
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #home h1 {
+    font-size: 2.2rem;
+  }
+  #home h3 {
+    font-size: 0.8rem;
+  }
+  #home .btn {
+    margin-top: 12px;
+  }
   footer {text-align: center;}
   footer .col-sm-6 {
     padding-bottom: 32px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #home h1 {
+    font-size: 2.2rem;
+  }
+  #home h3 {
+    font-size: 0.8rem;
+  }
+  #home .btn {
+    margin-top: 12px;
+  }
+  footer {text-align: center;}
+  footer .col-sm-6 {
+    padding-bottom: 32px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #home h1 {
+    font-size: 2.8rem;
+  }
+  #home h3 {
+    font-size: 1.2rem;
+  }
+  #home .btn {
+    margin-top: 48px;
+  }
+  footer {text-align: left;}
+  footer .col-sm-6 {
+    padding-bottom: 0;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #home h1 {
+    font-size: 3.6rem;
+  }
+  #home h3 {
+    font-size: 1.4rem;
+  }
+  #home .btn {
+    margin-top: 48px;
+  }
+  footer {text-align: left;}
+  footer .col-sm-6 {
+    padding-bottom: 0;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #home h1 {
+    font-size: 2.4rem;
+  }
+  #home h3 {
+    font-size: 1rem;
+  }
+  #home .btn {
+    margin-top: 12px;
+  }
+  footer {text-align: left;}
+  footer .col-sm-6 {
+    padding-bottom: 0;
   }
 }
